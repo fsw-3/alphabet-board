@@ -20,7 +20,7 @@ const boxOfAlphabet = (tinggi, lebar) => {
   //     result.push(arr);
   //   }
 
-  // Cara 2
+  //   Cara 2
   let asciiCode = 97;
   let result = [];
 
