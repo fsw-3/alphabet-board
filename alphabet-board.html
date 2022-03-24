@@ -6,6 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alphabet</title>
     <script>
+        function boxOfAlphabet(tinggi, lebar) {
+            let alpha = ["a", "b", "c", "d", "e",
+                     "f", "g", "h", "i", "j",
+                     "k", "l", "m", "n", "o",
+                     "p", "q", "r", "s", "t",
+                     "u", "v", "w", "x", "y", "z"];
+            let indexAlpha = 0;
+
+            let result = [];
+
+            for (let i = 0; i < tinggi; i++) {
+                let arr = [];
+                for (let j = 0; j < lebar; j++) {
+                    arr.push(alpha[indexAlpha++]);
+                    
+                    if(indexAlpha === alpha.length){
+                        indexAlpha = 0;
+                    }
+                }
+                
+                result.push(arr);
+            }
+            return result;
+        }
+
+        console.log(boxOfAlphabet(2, 2));
         
     </script>
 
