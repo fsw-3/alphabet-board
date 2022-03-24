@@ -2,7 +2,7 @@ const boxOfAlphabet = (tinggi, lebar) => {
   // Cara 1
   // Declare the alphabet
   //   let alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-  //   let alph = 0;
+  //   let indexAlph = 0;
   //   //   Declare First Dimension Array
   //   let result = [];
 
@@ -10,17 +10,17 @@ const boxOfAlphabet = (tinggi, lebar) => {
   //     //   Declare Second Dimension Array
   //     let arr = [];
   //     for (let j = 0; j < lebar; j++) {
-  //       arr.push(alphabet[alph++]);
+  //       arr.push(alphabet[indexAlph++]);
   //       //   Reset the alph to 0 so it be from 'a' again
-  //       if (alph === alphabet.length) {
-  //         alph = 0;
+  //       if (indexAlph === alphabet.length) {
+  //         indexAlph = 0;
   //       }
   //     }
   //     // Push Array arr to Array result so it will be 2 dimension array (array inside array)
   //     result.push(arr);
   //   }
 
-  //   Cara 2
+  // Cara 2
   let asciiCode = 97;
   let result = [];
 
